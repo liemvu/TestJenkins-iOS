@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HomeViewController : UIViewController
+@property (nonatomic, strong) IBOutlet UILabel * labelWelcome;
 @end

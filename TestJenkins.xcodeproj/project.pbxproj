@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5142DCD81746C3F0004EB0C9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BE856A1746BF1B00F26AA4 /* MainStoryboard_iPhone.storyboard */; };
+		5142DCD91746C3F3004EB0C9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BE856D1746BF1B00F26AA4 /* MainStoryboard_iPad.storyboard */; };
 		51BE85531746BF1A00F26AA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BE85521746BF1A00F26AA4 /* UIKit.framework */; };
 		51BE85551746BF1A00F26AA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BE85541746BF1A00F26AA4 /* Foundation.framework */; };
 		51BE85571746BF1A00F26AA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BE85561746BF1A00F26AA4 /* CoreGraphics.framework */; };
@@ -18,12 +20,12 @@
 		51BE85691746BF1B00F26AA4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BE85681746BF1B00F26AA4 /* Default-568h@2x.png */; };
 		51BE856C1746BF1B00F26AA4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BE856A1746BF1B00F26AA4 /* MainStoryboard_iPhone.storyboard */; };
 		51BE856F1746BF1B00F26AA4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BE856D1746BF1B00F26AA4 /* MainStoryboard_iPad.storyboard */; };
-		51BE85721746BF1B00F26AA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE85711746BF1B00F26AA4 /* ViewController.m */; };
+		51BE85721746BF1B00F26AA4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE85711746BF1B00F26AA4 /* HomeViewController.m */; };
 		51BE857A1746BF1C00F26AA4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BE85791746BF1C00F26AA4 /* SenTestingKit.framework */; };
 		51BE857B1746BF1C00F26AA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BE85521746BF1A00F26AA4 /* UIKit.framework */; };
 		51BE857C1746BF1C00F26AA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BE85541746BF1A00F26AA4 /* Foundation.framework */; };
 		51BE85841746BF1D00F26AA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51BE85821746BF1D00F26AA4 /* InfoPlist.strings */; };
-		51BE85871746BF1D00F26AA4 /* TestJenkinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE85861746BF1D00F26AA4 /* TestJenkinsTests.m */; };
+		51BE85871746BF1D00F26AA4 /* HomeViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE85861746BF1D00F26AA4 /* HomeViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,14 +54,14 @@
 		51BE85681746BF1B00F26AA4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		51BE856B1746BF1B00F26AA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		51BE856E1746BF1B00F26AA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		51BE85701746BF1B00F26AA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		51BE85711746BF1B00F26AA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		51BE85701746BF1B00F26AA4 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		51BE85711746BF1B00F26AA4 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		51BE85781746BF1C00F26AA4 /* TestJenkinsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestJenkinsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BE85791746BF1C00F26AA4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		51BE85811746BF1D00F26AA4 /* TestJenkinsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestJenkinsTests-Info.plist"; sourceTree = "<group>"; };
 		51BE85831746BF1D00F26AA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		51BE85851746BF1D00F26AA4 /* TestJenkinsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestJenkinsTests.h; sourceTree = "<group>"; };
-		51BE85861746BF1D00F26AA4 /* TestJenkinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestJenkinsTests.m; sourceTree = "<group>"; };
+		51BE85851746BF1D00F26AA4 /* HomeViewControllerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewControllerTests.h; sourceTree = "<group>"; };
+		51BE85861746BF1D00F26AA4 /* HomeViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewControllerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +125,8 @@
 				51BE85621746BF1B00F26AA4 /* AppDelegate.m */,
 				51BE856A1746BF1B00F26AA4 /* MainStoryboard_iPhone.storyboard */,
 				51BE856D1746BF1B00F26AA4 /* MainStoryboard_iPad.storyboard */,
-				51BE85701746BF1B00F26AA4 /* ViewController.h */,
-				51BE85711746BF1B00F26AA4 /* ViewController.m */,
+				51BE85701746BF1B00F26AA4 /* HomeViewController.h */,
+				51BE85711746BF1B00F26AA4 /* HomeViewController.m */,
 				51BE85591746BF1A00F26AA4 /* Supporting Files */,
 			);
 			path = TestJenkins;
@@ -147,8 +149,8 @@
 		51BE857F1746BF1C00F26AA4 /* TestJenkinsTests */ = {
 			isa = PBXGroup;
 			children = (
-				51BE85851746BF1D00F26AA4 /* TestJenkinsTests.h */,
-				51BE85861746BF1D00F26AA4 /* TestJenkinsTests.m */,
+				51BE85851746BF1D00F26AA4 /* HomeViewControllerTests.h */,
+				51BE85861746BF1D00F26AA4 /* HomeViewControllerTests.m */,
 				51BE85801746BF1D00F26AA4 /* Supporting Files */,
 			);
 			path = TestJenkinsTests;
@@ -248,6 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				51BE85841746BF1D00F26AA4 /* InfoPlist.strings in Resources */,
+				5142DCD81746C3F0004EB0C9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				5142DCD91746C3F3004EB0C9 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +280,7 @@
 			files = (
 				51BE855F1746BF1B00F26AA4 /* main.m in Sources */,
 				51BE85631746BF1B00F26AA4 /* AppDelegate.m in Sources */,
-				51BE85721746BF1B00F26AA4 /* ViewController.m in Sources */,
+				51BE85721746BF1B00F26AA4 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51BE85871746BF1D00F26AA4 /* TestJenkinsTests.m in Sources */,
+				51BE85871746BF1D00F26AA4 /* HomeViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +350,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -359,8 +363,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -378,14 +383,15 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -467,6 +473,7 @@
 				51BE858C1746BF1D00F26AA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51BE858D1746BF1D00F26AA4 /* Build configuration list for PBXNativeTarget "TestJenkinsTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +482,7 @@
 				51BE858F1746BF1D00F26AA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

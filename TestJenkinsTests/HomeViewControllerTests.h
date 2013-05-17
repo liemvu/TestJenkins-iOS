@@ -8,6 +8,6 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface TestJenkinsTests : SenTestCase
+@interface HomeViewControllerTests : SenTestCase
 
 @end
