@@ -1,4 +1,5 @@
-f ENV['SL_RUN_UNIT_TESTS'] then
+#!/usr/bin/env ruby
+if ENV['SL_RUN_UNIT_TESTS'] then
     launcher_path = "ios-sim"
     test_bundle_path= File.join(ENV['BUILT_PRODUCTS_DIR'], "#{ENV['PRODUCT_NAME']}.#{ENV['WRAPPER_EXTENSION']}")
 
