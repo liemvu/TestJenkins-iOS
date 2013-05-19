@@ -4,3 +4,4 @@ build/
 !*.xcodeproj/*.xcscheme
 .DS_Store
 /DerivedData/
+test-reports/
