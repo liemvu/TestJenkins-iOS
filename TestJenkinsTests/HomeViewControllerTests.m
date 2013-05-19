@@ -37,10 +37,16 @@
     STAssertNotNil(controller.labelWelcome, @"Home View Controller must have welcome label!");
 }
 
-- (void) tesWelcomeLableHasWelcomeText
+- (void) testWelcomeLableHasWelcomeText
 {
     [controller view];
     STAssertEqualObjects(controller.labelWelcome.text, @"Test Jenkins for distribution iOS Application", @"Welcome Label must have welcome text 'Test Jenkins for distribution iOS Application'");
+}
+
+- (void) testShouldFail
+{
+    [controller view];
+    STAssertNotNil(nil, @"should fail here");
 }
 
 @end
