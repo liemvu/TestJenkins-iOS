@@ -1,5 +1,6 @@
 build/
 *.xcodeproj/*
 !*.xocdeproj/project.pbxproj
+!*.xcodeproj/*.xcscheme
 .DS_Store
 /DerivedData/
