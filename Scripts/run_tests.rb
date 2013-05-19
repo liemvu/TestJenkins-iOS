@@ -13,7 +13,7 @@ if ENV['SL_RUN_UNIT_TESTS'] then
 
     app_test_host = File.dirname(ENV["TEST_HOST"])
     puts "going to call this  #{launcher_path} launch \"#{app_test_host}\" #{environment_args} --args -SenTest All #{test_bundle_path}"
-    passed = system("#{launcher_path} launch \"#{app_test_host}\" #{environment_args} --args -SenTest All #{test_bundle_path} 2>&1 | ocunit2junit")
+    puts `#{launcher_path} launch \"#{app_test_host}\" #{environment_args} --args -SenTest All #{test_bundle_path}`
     #ios-sim launch build/Debug-iphonesimulator/TestJenkins.app --setenv DYLD_INSERT_LIBRARIES="/../../Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection" --setenv XCInjectBundle="/Users/liemvo/.jenkins/workspace/Test Build iOS/build/Debug-iphonesimulator/TestJenkinsTests.octest" --setenv XCInjectBundleInto="/Users/liemvo/.jenkins/workspace/Test Build iOS/build/Debug-iphonesimulator/TestJenkins.app/TestJenkins" --args -SenTest All "/Users/liemvo/.jenkins/workspace/Test Build iOS/build/Debug-iphonesimulator/TestJenkinsTests.octest"
     #exit(1) if !passed
 else
